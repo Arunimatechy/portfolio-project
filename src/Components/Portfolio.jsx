@@ -92,7 +92,7 @@ export default function Portfolio() {
   return (
     <div className="bg-[#020617] text-white scroll-smooth">
 
-      {/* ================= NAVBAR ================= */}
+    
       <nav className="fixed top-0 left-0 w-full bg-[#020617]/60 backdrop-blur-xl border-b border-white/10 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-extrabold text-pink-500">Arunima.dev</h1>
@@ -110,7 +110,7 @@ export default function Portfolio() {
         </div>
       </nav>
 
-      {/* ================= HOME ================= */}
+    
       <section
         id="home"
         className="relative min-h-screen flex items-center px-8 overflow-hidden"
@@ -166,7 +166,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* ================= ABOUT ================= */}
+      
       <section id="about" className="py-24 max-w-5xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-pink-400 mb-6">About Me</h2>
         <p className="text-gray-300 leading-relaxed">
@@ -179,7 +179,7 @@ export default function Portfolio() {
         </p>
       </section>
 
-      {/* ================= SKILLS ================= */}
+     
      <section id="skills" className="py-24 bg-gradient-to-br from-[#1e1b4b] to-[#020617]">
   <h2 className="text-4xl font-bold text-center text-pink-400 mb-12">Skills</h2>
 
@@ -213,7 +213,7 @@ export default function Portfolio() {
 </section>
 
 
-      {/* ================= PROJECTS ================= */}
+     
       <section id="projects" className="py-24">
         <h2 className="text-4xl font-bold text-center text-pink-400 mb-12">Projects</h2>
 
@@ -255,11 +255,11 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* ================= CONTACT / HIRE ME ================= */}
+      
       <section id="contact" className="py-24 px-6 bg-gradient-to-br from-[#1a0010] via-[#2a0017] to-[#0b0f19]">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-          {/* Left Side - Info */}
+          
           <div>
             <h2 className="text-4xl font-bold text-pink-400 mb-4">Let’s Build Something Together</h2>
             <p className="text-gray-300 mb-2">
@@ -281,7 +281,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* Right Side - Contact Form */}
+         
           <div className="bg-white/10 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-xl">
             <form className="space-y-4">
               <input
