@@ -35,36 +35,56 @@ import Apiecommerce from "../Images/Apiecommerce.png";
 import OrderFlowImage from "../Images/OrderFlowImage.png";
 import Netflix from "../Images/Netflix.png";
 import Bookstore from "../Images/Bookstore.png";
+import SentimentAnalysis from "../Images/SentimentAnalysis.png";
 const projects = [
-  {
-    title: "Real-Time Currency Converter",
-    image: Currency,
+
+
+   {
+    title: "OrderFlow Dashboard",
+    image: OrderFlowImage,
     description:
-      "Developed a React-based real-time currency converter with automatic conversion, currency swap, and SVG flags. Implemented persistent state with localStorage and a clean responsive UI. Deployed live on Vercel.",
-    tech: ["React.js", "Axios", "Tailwind CSS", "REST API", "Vercel"],
-    github: "https://github.com/Arunimatechy/currency_converter",
-    live: "https://currency-converter-chi-ashen.vercel.app/",
+      "Built a React + Redux Toolkit dashboard for e-commerce order management. Features async data fetching, CRUD operations, status toggling, and monthly revenue charts with Recharts. Live demo hosted on Vercel.",
+    tech: ["React.js", "Redux Toolkit", "Recharts", "JavaScript", "Vercel"],
+    github: "https://github.com/Arunimatechy/OrderFlowDashboard",
+    live: "https://order-flow-dashboard-mauve.vercel.app/",
   },
+{
+  title: "AI-Powered Sentiment Analysis App",
+  image: SentimentAnalysis,
+  description:
+    "Built a Django-based AI sentiment analysis web application using Hugging Face models and Django REST Framework. Features include real-time text sentiment prediction, REST API integration, responsive UI, and live deployment on Render.",
+  tech: [
+    "Django",
+    "Django REST Framework",
+    "Hugging Face",
+    "Python",
+    "REST API",
+    "HTML",
+    "CSS",
+    "Render",
+  ],
+  github: "https://github.com/Arunimatechy/sentiment_analysis",
+  live: "https://sentiment-analysis-ve9z.onrender.com/",
+},
   {
-    title: "🌤 Weather App",
-    image: Weather,
-    description:
-      "Built a responsive React weather app with city search, current temperature, wind speed, sunrise & sunset times, and 24-hour forecast visualization. Integrated Open-Meteo API and deployed live on Vercel.",
-    tech: ["React.js", "Axios", "API(Open-Meteo)", "Tailwind CSS", "Vercel"],
-    github: "https://github.com/Arunimatechy/weatherreact",
-    live: "https://weatherreact-flame.vercel.app/",
-  },
-  {
-    title: "JavaScript Quiz",
-    image: Quiz,
-    description:
-      "Designed an interactive multiple-choice quiz using HTML, CSS, and JavaScript. Features instant feedback for answers, score tracking, and navigation between questions. Hosted on GitHub Pages.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Arunimatechy/QUIZAPP",
-    live: "https://arunimatechy.github.io/QUIZAPP/",
-  },
-  {
-    title: "E-Commerce Web Application",
+  title: " Full-Stack Bookstore Web Application",
+  image: Bookstore,
+  description:
+    
+"Built a full-stack bookstore web application using React.js and Django REST Framework. Features include JWT authentication, CRUD operations for books, responsive UI, and seamless REST API integration.",
+  tech: [
+    "React.js",
+    "Redux Toolkit",
+    "Django REST Framework",
+    "JWT Authentication",
+    "Tailwind CSS",
+    "Vercel",
+  ],
+  github: "https://github.com/Arunimatechy/mainbookstoreproject",
+  live: "https://mainbookstoreproject-pcqq-jvais7sij-arunimas-projects-140d0a2a.vercel.app/",
+},
+{
+    title: "E-Commerce Web App",
     image: Ecommerce,
     description:
       "Built a responsive e-commerce frontend with dynamic product listings, cart management, CRUD operations, and role-based access using Context API. Implemented localStorage persistence for state and smooth user experience.",
@@ -79,15 +99,6 @@ const projects = [
     ],
     github: "https://github.com/Arunimatechy/fakestoreapiredux",
     live: "https://reactcoffeeproject.vercel.app/",
-  },
-  {
-    title: "API-Based E-Commerce Web Application",
-    image: Apiecommerce,
-    description:
-      "Developed a full-featured React + Redux Toolkit e-commerce app integrating REST APIs. Implemented user authentication, cart management, checkout workflow, and persistent state for seamless user experience.",
-    tech: ["React.js", "Redux Toolkit", "Axios", "Tailwind CSS", "React Router"],
-    github: "https://github.com/Arunimatechy/REACTCOFFEEPROJECT",
-    live: "https://fakestoreapiredux.vercel.app/",
   },
   {
     title: "Netflix-Inspired Streaming Platform",
@@ -106,30 +117,46 @@ const projects = [
     live: "https://netflix-project-ashy.vercel.app/",
   },
   {
-    title: "OrderFlow Dashboard",
-    image: OrderFlowImage,
+    title: "Coffee Store Web App",
+    image: Apiecommerce,
     description:
-      "Built a React + Redux Toolkit dashboard for e-commerce order management. Features async data fetching, CRUD operations, status toggling, and monthly revenue charts with Recharts. Live demo hosted on Vercel.",
-    tech: ["React.js", "Redux Toolkit", "Recharts", "JavaScript", "Vercel"],
-    github: "https://github.com/Arunimatechy/OrderFlowDashboard",
-    live: "https://order-flow-dashboard-mauve.vercel.app/",
+      "Developed a full-featured React + Redux Toolkit e-commerce app integrating REST APIs. Implemented user authentication, cart management, checkout workflow, and persistent state for seamless user experience.",
+    tech: ["React.js", "Redux Toolkit", "Axios", "Tailwind CSS", "React Router"],
+    github: "https://github.com/Arunimatechy/REACTCOFFEEPROJECT",
+    live: "https://fakestoreapiredux.vercel.app/",
   },
-{
-  title: "📚 Bookstore Web Application",
-  image: Bookstore,
-  description:
-    "Full-stack bookstore web application built using React and Django REST Framework. Features include user authentication, CRUD operations for books, and responsive UI with seamless API integration.",
-  tech: [
-    "React.js",
-    "Redux Toolkit",
-    "Django REST Framework",
-    "JWT Authentication",
-    "Tailwind CSS",
-    "Vercel",
-  ],
-  github: "https://github.com/Arunimatechy/mainbookstoreproject",
-  live: "https://mainbookstoreproject-pcqq-jvais7sij-arunimas-projects-140d0a2a.vercel.app/",
-},
+  {
+    title: " Currency Converter",
+    image: Currency,
+    description:
+      "Developed a React-based real-time currency converter with automatic conversion, currency swap, and SVG flags. Implemented persistent state with localStorage and a clean responsive UI. Deployed live on Vercel.",
+    tech: ["React.js", "Axios", "Tailwind CSS", "REST API", "Vercel"],
+    github: "https://github.com/Arunimatechy/currency_converter",
+    live: "https://currency-converter-chi-ashen.vercel.app/",
+  },
+  {
+    title: "Weather App",
+    image: Weather,
+    description:
+      "Built a responsive React weather app with city search, current temperature, wind speed, sunrise & sunset times, and 24-hour forecast visualization. Integrated Open-Meteo API and deployed live on Vercel.",
+    tech: ["React.js", "Axios", "API(Open-Meteo)", "Tailwind CSS", "Vercel"],
+    github: "https://github.com/Arunimatechy/weatherreact",
+    live: "https://weatherreact-flame.vercel.app/",
+  },
+  {
+    title: "JavaScript Quiz",
+    image: Quiz,
+    description:
+      "Designed an interactive multiple-choice quiz using HTML, CSS, and JavaScript. Features instant feedback for answers, score tracking, and navigation between questions. Hosted on GitHub Pages.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Arunimatechy/QUIZAPP",
+    live: "https://arunimatechy.github.io/QUIZAPP/",
+  },
+  
+  
+  
+ 
+
 
   
 ];
@@ -364,7 +391,7 @@ export default function Portfolio() {
                 href="mailto:arunima@example.com"
                 className="hover:text-pink-400 transition"
               >
-                arunima@example.com
+              sarunima225@gmail.com
               </a>
             </p>
 
