@@ -36,7 +36,26 @@ import OrderFlowImage from "../Images/OrderFlowImage.png";
 import Netflix from "../Images/Netflix.png";
 import Bookstore from "../Images/Bookstore.png";
 import SentimentAnalysis from "../Images/SentimentAnalysis.png";
+import Ecommerce1 from "../Images/Ecommerce1.png"
 const projects = [
+
+  {
+  title: "Multi-Vendor Ecommerce Platform",
+  image: Ecommerce1,
+  description:
+    "Developed a full-stack multi-vendor ecommerce marketplace with vendor dashboards, product management, cart, secure authentication, order handling, and responsive UI. Implemented Redux state management, REST APIs, JWT authentication, and deployed the frontend on Vercel.",
+  tech: [
+    "React.js",
+    "Redux Toolkit",
+    "Django REST Framework",
+    "JWT Authentication",
+    "Tailwind CSS",
+    "Axios",
+    "Vercel"
+  ],
+  github: "https://github.com/Arunimatechy/multi-vendor-ecommerce",
+  live: "https://multi-vendor-ecommerce-hazel.vercel.app/",
+},
 
 
    {
