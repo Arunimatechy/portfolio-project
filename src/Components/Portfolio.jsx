@@ -673,7 +673,7 @@ const projects = [
       "Tailwind CSS",
     ],
     github: "https://github.com/Arunimatechy/fakestoreapiredux",
-    live: "https://reactcoffeeproject.vercel.app/",
+    live: "https://fakestoreapiredux.vercel.app/",
   },
 
   {
