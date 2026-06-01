@@ -689,7 +689,7 @@ const projects = [
       "React Router",
     ],
     github: "https://github.com/Arunimatechy/REACTCOFFEEPROJECT",
-    live: "https://fakestoreapiredux.vercel.app/",
+    live: "https://reactcoffeeproject.vercel.app/",
   },
 
   {
