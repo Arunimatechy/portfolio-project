@@ -661,7 +661,7 @@ const projects = [
   },
 
   {
-    title: "E-Commerce Web App",
+    title: "Coffee Store Web App! ☕🛒",
     image: Ecommerce,
     description:
       "Built a responsive e-commerce frontend with dynamic product listings and cart management.",
@@ -677,7 +677,7 @@ const projects = [
   },
 
   {
-    title: "Coffee Store Web App",
+    title: "FakeStore E-Commerce Web App! 🛒💻",
     image: Apiecommerce,
     description:
       "Developed a full-featured React + Redux Toolkit e-commerce app integrating REST APIs.",
