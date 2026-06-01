@@ -672,8 +672,8 @@ const projects = [
       "React Router",
       "Tailwind CSS",
     ],
-    github: "https://github.com/Arunimatechy/fakestoreapiredux",
-    live: "https://fakestoreapiredux.vercel.app/",
+   github: "https://github.com/Arunimatechy/REACTCOFFEEPROJECT",
+    live: "https://reactcoffeeproject.vercel.app/",
   },
 
   {
@@ -688,8 +688,9 @@ const projects = [
       "Tailwind CSS",
       "React Router",
     ],
-    github: "https://github.com/Arunimatechy/REACTCOFFEEPROJECT",
-    live: "https://reactcoffeeproject.vercel.app/",
+     github: "https://github.com/Arunimatechy/fakestoreapiredux",
+    live: "https://fakestoreapiredux.vercel.app/",
+    
   },
 
   {
